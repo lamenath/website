@@ -7,10 +7,7 @@
     "start": "harp server src",
     "compress": "tinypng src/assets/img/",
     "build": "harp compile src/ dist/",
-    "commit-dist": "git add dist/ && git commit -m 'Dist'",
-    "deploy": "npm run build && npm run commit-dist && git subtree push --prefix dist origin master",
-    "deploy-to-firebase": "npm run build && firebase deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy-to-firebase": "npm run build && firebase deploy"
   },
   "author": "Alessandro Menduni",
   "license": "MIT",
