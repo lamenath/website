@@ -1,0 +1,75 @@
+.hd__Container
+  padding-top: 15px
+
+  .wrapper
+    display: flex
+    justify-content: space-between
+
+    .hd__Logo
+      width: 200px
+
+      img
+        max-width: 100%
+        max-height: 100%
+
+    .hd__Nav
+      ul
+        display: flex
+        list-style: none
+        padding: 0
+        margin: 0
+
+        li
+          &:not(:last-child)
+            margin-right: 15px
+
+          // &.hd__Nav__MenuButton
+          //   display: none
+
+          a
+            color: $dark
+            text-decoration: none
+
+//   @media (max-width: 800px)
+//     .wrapper
+//       .hd__Nav
+//         ul
+//           li
+//             display: none
+//
+//             &.hd__Nav__MenuButton
+//               display: initial
+//
+//   &.isVisible
+//     position: fixed
+//     left: 0
+//     top: 0
+//     height: 100%
+//     min-width: 300px
+//     max-width: 350px
+//     background-color: $light
+//     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4)
+//
+//     animation: slideInFromLeft 0.3s ease-out forwards
+//
+//     .wrapper
+//       flex-direction: column
+//       justify-content: flex-start
+//       height: 100%
+//
+//       .hd__Logo
+//         margin: 0 auto
+//
+//       .hd__Nav
+//         ul
+//           flex-direction: column
+//
+//           li:not(:last-child)
+//             margin-right: 0
+//             margin-bottom: 15px
+//
+// @keyframes slideInFromLeft
+//   0%
+//     transform: translateX(-100%)
+//   100%
+//     transform: none

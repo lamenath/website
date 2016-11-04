@@ -1,0 +1,38 @@
+<svg width="206" height="140" viewBox="0 0 206 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>West Wing Logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(609 308)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector 4" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-452 -276)" fill="url(#paint0_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-561 -270.516)" fill="url(#paint1_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 3" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-529.139 -293.5)" fill="url(#paint2_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-609 -308)" fill="#2E98EA" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.96357e-15 92.5 -48.3988 5.66399e-15 48.3988 -4.04121e-14)">
+<stop offset="0" stop-color="#1B1B2B"/>
+<stop offset="1" stop-color="#143355"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.52086e-15 102.516 -57.5 6.27727e-15 58.5 9.0164e-14)">
+<stop offset="0" stop-color="#08518A"/>
+<stop offset="1" stop-color="#2789D5"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.13745e-15 122.019 -100.232 7.47149e-15 99.7418 5.39733e-14)">
+<stop offset="0" stop-color="#0A558E"/>
+<stop offset="1" stop-color="#152E4C"/>
+</linearGradient>
+<path id="path0_fill" d="M 46 0C 34.3967 31.8078 23.2878 46.5467 0 70.5C 2.25634 80.4205 5.75724 84.1068 22 91C 46.8848 42.0499 52.4602 22.7014 46 0Z"/>
+<path id="path1_fill" d="M 32 9.51559C 32.4221 54.6467 23.2057 71.7612 0 87.0156L 12 101.516C 35.0583 87.6436 48.109 85.7756 58.5 16.5156C 48.5413 -1.213 42.8337 -6.37967 32 9.51559Z"/>
+<path id="path2_fill" d="M 18.1389 0C 4.17608 6.79092 -0.93876 12.2934 0.138971 34C 5.72054 25.2547 19.4031 25.7846 28.6389 48C 54.9153 97.8206 62.5263 128.975 80.639 120C 91.0141 115.911 109.405 107.881 92.6389 102.5C 73.3249 96.301 52.5627 2.26404 18.1389 0Z"/>
+<path id="path3_fill" d="M 0 0C 49.5012 34.7401 48.4837 73.6763 51 121C 51.7719 124.539 48.1344 124.202 60 139C 47.5614 139.576 39.7418 134.965 33 126C 31.3477 64.921 26.2613 35.0727 0 0Z"/>
+</defs>
+</svg>

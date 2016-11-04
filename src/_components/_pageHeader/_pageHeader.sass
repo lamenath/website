@@ -1,0 +1,61 @@
+@import "../../_partials/_colors"
+@import "../../_partials/_typography"
+
+.pageHeader__Container
+  margin: 0 0 50px 0
+  padding: 50px 0
+  background-color: $light
+  color: $dark
+
+  &.small
+    margin-bottom: 0
+    padding: 15px 0
+
+    .wrapper
+      .pageHeader__Headline
+        display: none
+
+      .pageHeader__OpenNav
+        button
+          background-color: $mainDark
+
+  .wrapper
+    display: flex
+    align-items: center
+
+    .pageHeader__OpenNav
+      margin-right: 25px
+
+      button
+        background: none
+        border: none
+        border-radius: 4px
+
+        width: 35px
+        height: 35px
+        background:
+          image: url(/assets/img/hamburger.png)
+          position: center
+          size: cover
+
+        &:focus
+          outline: none
+
+
+    .pageHeader__Headline
+      @extend .headline
+      text-transform: uppercase
+
+
+
+@media (min-width: 800px)
+  .pageHeader__Container
+    &.small
+      display: none
+
+    .wrapper
+
+      .pageHeader__OpenNav
+        display: none
+
+      .pageHeader__Headline

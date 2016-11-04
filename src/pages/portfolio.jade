@@ -1,0 +1,60 @@
+extends page.jade
+
+block head
+  title Portfolio
+
+block css
+  link(rel="stylesheet" href="./portfolio.css")
+
+block header
+  !=partial('../_components/_pageHeader/_pageHeader.jade', { content: 'Portfolio', small: true })
+
+block sidenav
+  !=partial('../_components/_sideNav/_sideNav.jade', { content: pageName })
+
+
+block vars
+  - var pageName = "Portfolio"
+  
+block content
+  header.hd__Container.small
+    .wrapper
+      .hd__Headline
+        h1.hd__Headline__Strong
+          | #{pageName}
+        .hd__Headline__Lead
+          | A curated collection of some of our best works, packed with in-depth case studies and lessons learned
+  
+  ul.pf__ItemsList
+    for article in public.articles.portfolio._data
+      li
+        .pf__ItemHeader
+          .wrapper
+            h2.pf__ItemHeader__Title= article.title
+            img(src="#{article.image}" alt="#{article.title}'s illustrative image")
+        
+        .wrapper
+          .pf__ItemDescription
+            .paragraph!= article.preview
+            
+            .pf__ItemDescription__Label Keywords:
+            ul.pf__ItemDescription__Keywords
+              for keyword in article.keywords
+                li= keyword
+            
+            .pf__ItemDescription__Label Techies:
+            
+            ul.pf__ItemDescription__Techies
+              for technology in article.technologies
+                li= technology
+                  
+            .pf__ItemDescription__Buttons
+              if article.caseStudySlug
+                a(href="#{article.caseStudySlug}") 
+                  button.button Case study
+              if article.demoSlug
+                a(href="#{article.demoSlug}") 
+                  button.button Demo
+              if article.sourceSlug
+                a(href="#{article.sourceSlug}") 
+                  button.button Source code

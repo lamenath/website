@@ -1,0 +1,31 @@
+@import "../_partials/_global"
+@import "../_partials/_colors"
+@import "../_partials/_typography"
+@import "page"
+@import "../_components/_header/_header"
+@import "../_components/_pageHeader/_pageHeader"
+@import "../_components/_headline/_headline"
+@import "../_components/_indexedListItem/_indexedListItem"
+
+.wrapper
+  max-width: 1024px
+
+.blog__ArticlesList
+  padding: 0
+  margin-top: 50px
+
+  .indexedListItem
+
+    .indexedListItem__Index
+      border-bottom-color: $blog
+      color: $blog
+
+  .blog__Article__Title
+    @extend .paragraphSubtitle
+    display: inline-block
+    margin-top: 0
+    text-decoration: none
+    color: $dark
+
+  .blog__Article__Preview
+    @extend .paragraph

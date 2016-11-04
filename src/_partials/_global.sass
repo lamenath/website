@@ -1,0 +1,35 @@
+@import "_fonts"
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+
+  &.no-scroll
+    overflow: hidden
+
+body.can-animate
+  animation: boot 0.6s ease-in
+
+  @keyframes boot
+    0%
+      opacity: 0
+    100%
+      opacity: 1
+
+.wrapper
+  width: 100%
+  max-width: 800px
+  padding: 0 25px
+  margin: 0 auto
+
+.flex
+  display: flex
+
+  &.center
+    justify-content: center
+    align-items: center
+
+  &.between
+    justify-content: space-between

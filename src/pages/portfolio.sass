@@ -1,0 +1,96 @@
+@import "../_partials/_global"
+@import "../_partials/_colors"
+@import "../_partials/_typography"
+@import "page"
+@import "../_components/_header/_header"
+@import "../_components/_pageHeader/_pageHeader"
+@import "../_components/_headline/_headline"
+@import "../_components/_indexedListItem/_indexedListItem"
+@import "../_components/_button/_button"
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+
+.pf__ItemsList
+  // margin-top: 50px
+
+  li
+    .pf__ItemHeader
+      padding: 50px 0
+
+      .wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+      .pf__ItemHeader__Title
+        @extend .paragraphTitle
+        margin: -10px 0 40px
+        text-align: center
+        color: $dark
+
+      img
+        max-width: 100%
+        max-height: 300px
+
+    .pf__ItemDescription
+      padding: 50px 0
+
+      .paragraph
+        margin-bottom: 15px
+
+        strong
+          font-weight: normal
+
+      .pf__ItemDescription__Label
+        @extend .paragraphSubtitle
+
+      .pf__ItemDescription__Keywords, .pf__ItemDescription__Techies
+        display: flex
+        flex-wrap: wrap
+        margin-bottom: 15px
+
+        li
+          @extend .paragraph
+          margin: 0 5px 5px 0
+          padding: 3px 9px
+          background: $dark
+          color: $light
+          font-size: 16px
+          font-weight: lighter
+          border-radius: 4px
+
+
+      .pf__ItemDescription__Buttons
+        display: flex
+        // justify-content: center
+        align-items: center
+        flex-wrap: wrap
+        margin-top: 25px
+
+        .button
+          @extend .paragraph
+
+        .button:not(:last-child)
+          margin-right: 15px
+
+    &:nth-child(2n+1)
+      .pf__ItemHeader
+        background-color: rgba($mainDark, 0.12)
+
+      .pf__ItemDescription
+        .pf__ItemDescription__Buttons
+          .button
+            background-color: $mainLight
+
+    &:nth-child(2n)
+      .pf__ItemHeader
+        background-color: rgba($mainDark, 0.12)
+
+      .pf__ItemDescription
+        .pf__ItemDescription__Buttons
+          .button
+            background-color: $mainLight

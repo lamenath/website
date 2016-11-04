@@ -1,0 +1,37 @@
+.appShell__Container
+
+  .appShell__Nav
+
+  .appShell__Main
+
+@media (min-width: 800px)
+  .appShell__Container
+    display: flex
+
+    .appShell__Nav
+      position: fixed
+      top: 0
+      bottom: 0
+      left: 0
+
+    .appShell__Main
+      margin-left: 300px
+      flex: 1
+
+.appShell__Container
+  flex-direction: column
+
+  .appShell__Nav
+    position: relative
+    height: 75px
+
+  .appShell__Main
+    overflow-x: hidden
+    margin-left: 0
+
+@media (max-width: 800px)
+  .appShell__Container
+    .appShell__Nav
+      position: fixed
+      height: 100%
+      z-index: 999

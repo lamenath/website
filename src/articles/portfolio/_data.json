@@ -1,0 +1,26 @@
+{
+  "rmt.html": {
+    "title": "Restaurant Management Tool",
+    "preview": "Meet Bob. Bob owns a small restaurant in the neighborhood, he's a really good chef, people love the food and the atmosphere, waiters are swift and cool. However Bob and his employees are not enough in number to sustain the amount of work that needs to be done. Bob wants to translate some of the repetitive, slow and manual work to the computer. <strong>Read on to find out how we built a great mobile app for Bob's restaurant!</strong>",
+    "image": "/assets/img/rmt.png",
+    "keywords": [ "No internet available", "Receipt printer" ],
+    "technologies": [ "AngularJS", "Raspberry PI", "LocalStorage" ],
+    "caseStudySlug": "/articles/portfolio/rmt.v2.html"
+  },
+  "cam.html": {
+    "title": "Content Annotation Manager",
+    "preview": "In the ever expanding Web of data, content is quickly becoming more important than software itself. As the need for meaning and structure grows, an exciting challenge opens up for UI designers and data visualization experts: creating applications capable of exposing in a clear and meaningful way the real and valuable content contained in the midst of unstructured data, hopefully supporting further reasoning or action over the conveyed information. <strong>In this Master Thesis project</strong> it is described the experience and lessons learned while designing and developing a web application for the Content Annotation Manager, a tool aiming at analyzing and reviewing the process of text mining and content augmentation performed by Mondeca's technologies. The challenges faced include designing a usable product adopting a user-centered approach, developing a dynamic web application with modern technologies, making the most out of today's performance models and strategies to deliver a great experience, and expanding back-end's capabilities.",
+    "image": "/assets/img/cam.png",
+    "keywords": [ "Web Semantic", "Single Page Application", "Dashboard", "UX", "RAIL Performance Model" ],
+    "technologies": [ "AngularJS" ],
+    "caseStudySlug": "https://goo.gl/aBBFFK"
+  },
+  "factory.html": {
+    "title": "Pictor Factory",
+    "preview": "Art is not only about artists and enthusiasts, art galleries and opinionists. <strong>Art is about everyone, and everyone should be allowed to access art</strong>, that's the core reason why an Italian art academy based in Turin, the Pictor Academy, decided to undertake this challenge, by building an online gallery offering the artists the opportunity to meet the collectors and the general public. Artists do not sell pieces of art, they custom-tailor affordable paintings, sculptures, or other works according to the buyer's needs. Read on to find out about the challenges, and the solutions, that we faced planning, framing and building this awesome online gallery!",
+    "image": "/assets/img/factory.png",
+    "keywords": [ "Online Gallery" ],
+    "technologies": [ "AngularJS" ],
+    "caseStudySlug": ""
+  }
+}

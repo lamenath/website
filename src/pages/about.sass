@@ -1,0 +1,43 @@
+@import "../_partials/_global"
+@import "../_partials/_colors"
+@import "../_partials/_typography"
+@import "page"
+@import "../_components/_header/_header"
+@import "../_components/_pageHeader/_pageHeader"
+@import "../_components/_headline/_headline"
+@import "../_components/_indexedListItem/_indexedListItem"
+
+.wrapper
+  max-width: 1024px
+
+.about__Info__Container
+  padding: 0
+  margin-top: 50px
+
+  .indexedListItem
+    justify-content: flex-start
+
+    .indexedListItem__Index
+      margin-right: 100px
+      border-bottom-color: $about
+      color: $about
+
+    .indexedListItem__Details
+      @extend .paragraph
+
+      ol, ul
+        padding-left: 20px
+
+        li
+          margin-bottom: 5px
+
+  .about__Contact
+
+    .about__Contact__Link
+
+      a
+        color: $dark
+        font-weight: bold
+
+  .about__Contact__On
+    padding-right: 15px

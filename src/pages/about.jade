@@ -1,0 +1,68 @@
+extends page.jade
+
+block head
+  title= pageName
+
+block css
+  link(rel="stylesheet" href="./about.css")
+  
+block header
+  !=partial('../_components/_pageHeader/_pageHeader.jade', {content: pageName})
+  
+block sidenav
+  !=partial('../_components/_sideNav/_sideNav.jade', {content: pageName})
+  
+block vars
+  - var pageName = "About"
+
+block content
+  header.hd__Container.small
+    .wrapper
+      .hd__Headline
+        h1.hd__Headline__Strong
+          | #{pageName}
+        .hd__Headline__Lead
+          | Want to reach out? Want to know more about us? Keep on scrolling!
+
+  .wrapper
+    ul.about__Info__Container
+      li.indexedListItem
+        .indexedListItem__Index
+          | Contacts
+        .indexedListItem__Details
+          table
+            for contact in public.pages._data.contacts
+              tr.about__Contact
+                td.about__Contact__On #{contact.platform}:
+                td.about__Contact__Link 
+                  a(href=contact.href target="_blank")
+                    != contact.label
+
+      li.indexedListItem
+        .indexedListItem__Index 
+          | About us
+        .indexedListItem__Details
+          | West Wing is an highly specialized and focused web development agency, deeply invested in unlocking businesses' full potential in this competitive world, by building online products and services that stand out from the crowd. It achieves such an ambitious goal by offering 
+          strong highly specialized training 
+          | and 
+          strong premium-quality work
+          | , which ultimately result in performant and efficient solutions that speak volumes to the brand's perceived image.
+      
+      li.indexedListItem
+        .indexedListItem__Index 
+          | Principles
+        .indexedListItem__Details
+          ol
+            li User comes first, even before the product owner
+            li Measure success by means of customers' happiness and per-customer referral ratio
+            li Keep a close relationship with UX, committing for a user-centered approach
+            
+      li.indexedListItem
+        .indexedListItem__Index 
+          | Running goals
+        .indexedListItem__Details
+          ul
+            li Import the future of the web in Italy, by spreading the verb
+            li Invest in research on perceived and computational performance
+            li Partner with the top performers of each field (designers, back-end specialists, database gurus, etc..)
+            li Be a careful and attent reality, by committing to social projects

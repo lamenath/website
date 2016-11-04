@@ -1,0 +1,34 @@
+extends page.jade
+
+block head
+  title Blog
+
+block css
+  link(rel="stylesheet" href="./blog.css")
+  
+block header
+  !=partial('../_components/_pageHeader/_pageHeader.jade', {content: pageName})
+  
+block sidenav
+  !=partial('../_components/_sideNav/_sideNav.jade', {content: pageName})
+  
+block vars
+  - var pageName = "Blog"
+
+block content
+  header.hd__Container.small
+    .wrapper
+      .hd__Headline
+        h1.hd__Headline__Strong
+          | #{pageName}
+        .hd__Headline__Lead
+          | Learning material for professionals eager to explore the attent science behind building a successful online product
+
+  .wrapper
+    ul.blog__ArticlesList
+      for article, slug in public.articles.blog._data
+        li.indexedListItem
+          .indexedListItem__Index= article.keywords
+          .indexedListItem__Details
+            a.blog__Article__Title(href="../articles/blog/#{slug}")= article.title
+            .blog__Article__Preview= article.preview

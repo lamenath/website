@@ -1,0 +1,8 @@
+{
+  "gzip.html": {
+    "title": "Your minification is pointless",
+    "preview": "Gzip is a compression algorithm which works at its best when run against textual files. Let me show you how it works and why I believe minification can be pointless.",
+    "date": "06/09/2016",
+    "keywords": "THEORYCRAFT"
+  }
+}

@@ -1,0 +1,76 @@
+@import "../../_partials/_global"
+@import "../../_partials/_colors"
+@import "../../_partials/_typography"
+@import "../../pages/page"
+@import "../../_components/_header/_header"
+@import "../../_components/_pageHeader/_pageHeader"
+@import "../../_components/_headline/_headline"
+
+$quote: #666
+
+.article
+
+  img
+    display: block
+    margin: 25px auto
+    max-width: 100%
+
+  h1
+    @extend .paragraphTitle
+
+  h2, h3, h4, h5, h6
+    @extend .paragraphSubtitle
+
+  h3
+    font-size: 18px
+
+  p, p *, ul *
+    @extend .paragraph
+
+  ul > li:not(:last-child)
+    margin-bottom: 9px
+
+  a
+    color: $blog
+    padding-bottom: 1px
+    text-decoration: none
+    border-bottom: 1px dashed $blog
+
+    &:hover
+      color: $accent
+      border-bottom-color: $accent
+
+  blockquote
+    overflow: auto
+    margin: 10px
+    padding: 0px 25px
+    font-style: italic
+    color: #666
+    border-left: 5px $blog solid
+
+  table
+    @extend .paragraph
+    display: table
+    overflow: auto
+    margin: 25px auto
+    width: 100%
+    word-break: normal
+    word-break: keep-all
+    border-spacing: 0
+    border-collapse: collapse
+
+  table th,
+  table td
+    padding: 6px 13px
+    border: 1px solid #ddd
+
+  table th
+    font-weight: normal
+    border-bottom-width: 2px
+
+  table tr
+    background-color: #fff
+    border-top: 1px solid #ccc
+
+  table tr:nth-child(2n)
+    background-color: #f8f8f8

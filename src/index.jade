@@ -1,0 +1,76 @@
+extends pages/page.jade
+
+block head
+  title West Wing Solutions
+  link(rel="manifest" href="/manifest.json" charset="utf-8")
+
+block css
+  link(rel="stylesheet" href="./main.css")
+
+block js
+  script.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  
+block header
+  !=partial('./_components/_pageHeader/_pageHeader.jade', { content: pageName })
+  
+block sidenav
+  !=partial('./_components/_sideNav/_sideNav.jade', { content: pageName, small: true })
+
+block vars
+  - var pageName = "Home"
+  
+block content
+  
+  header.hd__Container
+    .wrapper
+      .hd__Headline
+        h1.hd__Headline__Strong
+          | Unlock your business<br>true potential
+        .hd__Headline__Lead
+          | Make your brand stand out from the crowd by building web applications that speak volumes for your brand's image.
+      .hd__Logo__Container
+        //- img(src="/assets/img/logo.svg")
+  
+  section.info__Container
+    .row.wrapper
+      .col.half
+        .info__Text
+          h2.info__Lead
+            | Tailoring apps for the ambitious client, whose users deserve the craftmanship of a Swiss watch artisan.
+          p.info__Paragraph
+            | If there's someone out there who excels in what we need, she's working with us. We believe that highly focused and deeply specialized teams work best, that's why we don't even pretend we can do everything for you. In order to deliver at top, we pair with the best. Period.
+      .col.half
+        .info__Pic(style="background-image: url(/assets/img/craftmanship.jpeg)")
+        
+  section.info__Container.is-rotated
+    .row.wrapper
+      .col.half
+        .info__Text
+          h2.info__Lead
+            | Can you afford losing 70% of your users before they get to read your tagline? Stop the hemorragy now.
+          p.info__Paragraph
+            | When was the last time you fell in love with a clunky or laggy application? That's right, your users won't neither. We are wholeheartedly invested in delivering the absolute best experience that current technologies and practices afford. Sometimes even more than that. Geeks call it performance, we like to think of it as usability.
+      .col.half
+        .info__Pic(style="background-image: url(/assets/img/hemorragy.jpg)")
+        
+  section.info__Container
+    .row.wrapper
+      .col.half
+        .info__Text
+          h2.info__Lead
+            | We believe that a few years from now, the web will do better what native apps do best today.
+          p.info__Paragraph
+            | The mission of West Wing is promoting and nourishing an Italian community of web developers, finally bringing the bleeding edge state of the web here. We believe that Italy's digital divide will benefit greatly by the modern technologies targeting the so called "next billion users" (mainly Indian and African)
+
+      .col.half
+        .info__Pic(style="background-image: url(/assets/img/community.jpg)")
+        
+  section.cta__Container
+    .wrapper
+      .cta__Content
+        h2.cta__Text Let's build together
+        a(href="/pages/about.html") 
+          button.cta__Button Contact us

@@ -1,0 +1,157 @@
+@import "_partials/_global"
+@import "_partials/_colors"
+@import "_partials/_typography"
+@import "_components/_appShell/_appShell"
+@import "_components/_sideNav/_sideNav"
+@import "_components/_button/_button"
+@import "_components/_pageHeader/_pageHeader"
+@import "_components/_headline/_headline"
+
+// vars
+
+$fs-headline: 36px
+$fs-lead: 22px
+
+// home content
+
+.wrapper
+  max-width: 1024px
+
+section.info__Container
+  margin: 25px 0
+  // background-color: $grey
+
+  .row
+    display: flex
+
+    .col
+      flex: 1
+      display: flex
+      justify-content: center
+      align-items: center
+      padding: 50px 0
+
+      &.half
+        width: 50%
+
+    .info__Text
+
+      .info__Lead
+        @extend .paragraphSubtitle
+        margin: 0
+
+      .info__Paragraph
+        @extend .paragraph
+        text-align: left
+        margin: 15px 0 0 0
+
+    .info__Pic
+      width: 250px
+      height: 250px
+      background:
+        size: cover
+        position: center
+        repeat: no-repeat
+      border-radius: 50%
+
+  &:nth-child(2n)
+    .col:nth-child(2)
+      order: -1
+
+  &.is-rotated
+    margin: 50px -25px
+    padding: 50px 0
+    background-color: $mainLight
+    color: $light
+    transform: rotateZ(-5deg)
+
+    .row
+      transform: rotateZ(5deg)
+
+section.cta__Container
+  position: relative
+  height: 300px
+  background:
+    image: url(/assets/img/skyline.jpeg)
+    size: cover
+    position: center left
+    repeat: no-repeat
+
+  &::after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background-color: rgba($mainDark, 0.85)
+
+  .wrapper
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%
+    z-index: 99
+
+  .cta__Content
+    padding: 50px 0
+    text-align: center
+
+    .cta__Text
+      @extend .pargraphTitle
+      font-size: $fs-headline
+      font-weight: lighter
+      text-transform: uppercase
+      color: $light
+
+    .cta__Button
+      @extend .button
+      border: 2px solid $light
+      background: transparent
+      font-size: $fs-lead
+      text-transform: uppercase
+      cursor: pointer
+
+  &.is-rotated
+    margin: 50px -25px
+    padding: 50px 0
+    background-color: $mainLight
+    color: $light
+    transform: rotateZ(5deg)
+
+    .wrapper
+      transform: rotateZ(-5deg)
+
+@media (max-width: 800px)
+  header.hd__Container
+    .hd__Headline
+      max-width: 450px
+    .hd__Logo__Container
+      display: none
+
+  section.info__Container
+    margin: 0
+    .row
+      flex-direction: column
+      .col
+        &.half
+          width: 100%
+        &:nth-child(2)
+          width: calc(100% + 50px)
+          margin: 0 -25px
+          padding: 0
+          order: -1
+      .info__Text
+        .info__Lead
+        .info__Paragraph
+      .info__Pic
+        width: 100%
+        height: 350px
+        border-radius: initial
+    &.is-rotated
+      margin: 0
+      padding: 0
+      transform: none
+      .row
+        transform: none

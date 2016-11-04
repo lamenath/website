@@ -1,0 +1,25 @@
+.indexedListItem
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin-bottom: 25px
+
+  .indexedListItem__Index
+    min-width: 150px
+    height: 100%
+    margin-right: 25px
+    padding-bottom: 5px
+    text-transform: uppercase
+    color: $dark
+    border-bottom: 1px solid $dark
+
+  .indexedListItem__Details
+    max-width: 650px
+
+  @media (max-width: 800px)
+    flex-direction: column
+
+    .indexedListItem__Index
+      margin-bottom: 15px
+      border: none
+      font-size: 14px

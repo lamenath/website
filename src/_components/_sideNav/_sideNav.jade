@@ -1,0 +1,19 @@
+.sideNav__Container.small
+  .sideNav__Overlay
+  nav.sideNav__Main
+    .wrapper
+      header
+        a(href="/")
+          img(src="/assets/img/logo.svg" alt="Brand's logo")
+        a(href="/")          
+          .paragraphTitle West Wing Solutions
+      ul
+        li(class=(content === "Home") ? "active" : "") 
+          a(href="/") Home
+        li(class=(content === "Blog") ? "active" : "") 
+          a(href="/pages/blog.html") Blog
+        li(class=(content === "Portfolio") ? "active" : "") 
+          a(href="/pages/portfolio.html") Portfolio 
+        li(class=(content === "About") ? "active" : "") 
+          a(href="/pages/about.html") About
+        

@@ -1,0 +1,28 @@
+extends ../../pages/page.jade
+
+block head
+  title Portfolio
+
+block css
+  link(rel="stylesheet" href="./article.css")
+  
+block header
+  !=partial('../../_components/_pageHeader/_pageHeader.jade', {content: 'Portfolio'})
+
+block sidenav
+  !=partial('../../_components/_sideNav/_sideNav.jade', {content: pageName})
+
+block vars
+  - var pageName = "Portfolio"
+
+block content
+  header.hd__Container.small
+    .wrapper
+      .hd__Headline
+        h1.hd__Headline__Strong
+          | #{pageName}
+        .hd__Headline__Lead
+          | A curated collection of some of our best works, packed with in-depth case studies and lessons learned
+  
+  .wrapper.article
+    != yield

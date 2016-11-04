@@ -1,0 +1,32 @@
+// vars
+
+$fs-headline: 36px
+$fs-lead: 22px
+
+header.hd__Container
+  padding: 100px 0
+  background-color: $mainDark
+  color: $light
+
+  &.small
+    padding: 50px 0
+
+  .wrapper
+    max-width: 1024px
+    display: flex
+    justify-content: space-between
+
+  .hd__Headline
+    max-width: 75%
+
+    .hd__Headline__Strong
+      margin: 0
+      font-size: $fs-headline
+      font-weight: lighter
+      text-transform: uppercase
+
+    .hd__Headline__Lead
+      @extend .paragraphSubtitle
+      margin-top: 15px
+      font-weight: lighter
+      opacity: 0.45
