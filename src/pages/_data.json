@@ -3,5 +3,9 @@
     "platform": "Email",
     "label": "ask@westwingsolutions.com",
     "href": "mailto:ask@westwingsolutions.com"
+  }, {
+    "platform": "GitHub",
+    "label": "@west-wing-solutions",
+    "href": "https://github.com/west-wing-solutions"
   } ]
 }
