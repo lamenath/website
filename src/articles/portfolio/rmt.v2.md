@@ -37,8 +37,7 @@ Regarding the day-to-day problems, we identified a few main pain points:
 We like to sum up the goal in a single, concise sentence that's easy to refer to while developing our solutions. For Bob, we identified that the root problem was the number of steps that they needed to take for every client, leaving room for mistakes and miscommunication and slowing down the whole process:
 
 > Reduce the number of steps, aim for a single point of failure
-
-**[Image of post it]**
+<!-- **[Image of post it]** -->
 
 So that's what we did. We needed to design an application capable of handling most of the work on Bob's behalf, one that could be used on a mobile device for the waiters to be able to take the orders, one designed with a special focus on speed and ease of use, and lastly but most importantly, one that would be connected to some printing system, in order to easily get the orders in different places: the kitchen, the bar, the cashier and the table. <!-- - breve lista delle features + soluzione ad ogni problema identificato, raspberry, configurazione facile con csv, app mobile, design con focus sull'UX e facile da usare, data analysis -->
 
@@ -55,9 +54,7 @@ In addition to this, in order to allow our web app to work in an offline environ
 Our desire here was to adhere as closely as possible to Bob's current process of doing things. We noticed how Bob was already maintaining a spreadsheet for its menu; thus we allowed him to simply import it in the app as a CSV file (easily done through any office suite software)
 
 ### Simplicity of use
-Alright, here is where we really put a lot of effort. According to our analysis
-
- app mobile, design con focus sull'UX e facile da usare,
+Alright, here is where we really put a lot of effort. According to our analysis  <!-- app mobile, design con focus sull'UX e facile da usare, -->
 
 Here's our list of features for the **Restaurant Management Tool** (RMT)
 - _Menu Management_: the app allows Bob to easily set up and update the menu, which is then available for the waiters to select the items that get ordered at the different tables
