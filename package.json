@@ -5,27 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "harp server src",
-    "compress": "tinypng src/assets/img/",
+    "compress-images": "tinypng src/assets/img/",
     "build": "harp compile src/ dist/",
     "deploy-to-firebase": "npm run build && firebase deploy"
   },
   "author": "Alessandro Menduni",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-concat-css": "^2.3.0",
-    "gulp-connect": "^5.0.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-image-resize": "^0.10.0",
-    "gulp-imagemin": "^3.0.3",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-minify-html": "^1.0.6",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
-    "gulp-watch": "^4.3.9",
-    "run-sequence": "^1.2.2"
-  }
+  "devDependencies": {}
 }
