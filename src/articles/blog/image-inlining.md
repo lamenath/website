@@ -48,7 +48,7 @@ So here's the secret recipe to **instantaneous image loading**:
 - **BONUS**: Crossfade between the two
 
 ## When does inlining make sense?
-Well, as I mentioned earlier, you shouldn't inline a lot of images on the same document, otherwise you would end up having a pretty big file. This technique makes a lot sense for those images that are part of the [above the fold content], or any other image that is core to the first experience the user has with your page. As a rule of thumb, if a given picture requires some sort of interaction for a user to see (e.g - scroll), it's not necessary that you go through the hassle.
+Well, as I mentioned earlier, you shouldn't inline a lot of images on the same document, otherwise you would end up having a pretty big file. This technique makes a lot sense for those images that are part of the [above the fold content](http://rigor.com/wp-content/uploads/2016/08/image03.png), or any other image that is core to the first experience the user has with your page. As a rule of thumb, if a given picture requires some sort of interaction for a user to see (e.g - scroll), it's not necessary that you go through the hassle.
 
 ## Want to see some code? Stay tuned.
 In an upcoming article, I'm going to describe the process to build a custom element implementing precisely this behaviour; while you wait, you can still reference the awesome [iron-img element](https://elements.polymer-project.org/elements/iron-image) from the Polymer team, which among other things, allows you to provide an image placeholder directly in template.
