@@ -27,4 +27,12 @@ block content
   
   .wrapper.article
     != yield
+    
+  .article__Comments
+    .wrapper.article
+      h3
+        | Care to leave a comment? Drop down a line 
+        a(href="https://twitter.com/intent/tweet?text=%40mendaomn%20%40westwingsolutions" target="_blank") on the Twitters
+      
+      
   script(src="../../assets/libs/prism/prism.js")
