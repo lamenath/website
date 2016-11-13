@@ -1,0 +1,7 @@
+footer.ft__Container
+  .wrapper
+    for contact in public.pages._data.contacts
+      if contact.icon
+        .ft__Icon
+          a(href=contact.href target="_blank")
+            img(src=contact.icon)
