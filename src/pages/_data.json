@@ -2,10 +2,17 @@
   "contacts": [ {
     "platform": "Email",
     "label": "ask@westwingsolutions.com",
-    "href": "mailto:ask@westwingsolutions.com"
+    "href": "mailto:ask@westwingsolutions.com",
+    "icon": "/assets/img/email.svg"
   }, {
     "platform": "GitHub",
     "label": "@west-wing-solutions",
-    "href": "https://github.com/west-wing-solutions"
+    "href": "https://github.com/west-wing-solutions",
+    "icon": "/assets/img/github.svg"
+  }, {
+    "platform": "Twitter",
+    "label": "@westwingsols",
+    "href": "https://twitter.com/westwingsols",
+    "icon": "/assets/img/twitter.svg"
   } ]
 }
