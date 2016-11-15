@@ -1,17 +1,39 @@
 .ft__Container
-  padding: 56px 0
+  padding: 25px 0
   background-color: $mainDark
 
   .wrapper
     display: flex
+    justify-content: space-between
+    align-items: center
     max-width: 1024px
 
-  .ft__Icon
-    margin-right: 35px
-    width: 35px
+    .ft__Contacts
+      display: flex
 
-    img
-      width: 100%
+      .ft__Icon
+        width: 25px
+
+        &:not(:last-child)
+          margin-right: 25px
+
+        img
+          width: 100%
+
+    .ft__About
+      max-width: 350px
+      color: $light
+      text-align: left
+
+      .ft__About__Title
+        margin-top: 0
+        margin-bottom: 5px
+        font-size: 14px
+
+      .ft__About__Paragraph
+        margin: 0
+        font-size: 14px
+        text-align: left
 
   @media (max-width: 800px)
     .wrapper
