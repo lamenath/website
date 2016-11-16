@@ -5,7 +5,7 @@
     "image": "/assets/img/rmt.png",
     "keywords": [ "No internet available", "Receipt printer" ],
     "technologies": [ "AngularJS", "Raspberry PI", "LocalStorage" ],
-    "caseStudySlug": "/articles/portfolio/rmt.v2.html"
+    "caseStudySlug": "/articles/portfolio/rmt.html"
   },
   "cam.html": {
     "title": "Content Annotation Manager",
