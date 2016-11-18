@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://westwingsolutions.com/</loc>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/pages/blog</loc>
+     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/pages/portfolio</loc>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/pages/about</loc>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/articles/blog/gzip</loc>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/articles/blog/image-inlining</loc>
+  </url>
+  <url>
+    <loc>https://westwingsolutions.com/articles/portfolio/rmt</loc>
+  </url>
+</urlset>
