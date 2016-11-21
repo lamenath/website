@@ -1,14 +1,14 @@
 {
-  "gzip.html": {
-    "title": "Your minification is not enough",
-    "preview": "Gzip is a compression algorithm which works at its best when run against textual files. Let me show you how it works and why I believe minification can be just not enough.",
-    "date": "06/09/2016",
-    "keywords": "PERFORMANCE"
-  },
   "image-inlining.html": {
     "title": "The performance of images: inlining",
     "preview": "Pictures are an integral part of the web experience, but can sometimes be slow to display, especially on mobile networks. Can we make the loading of an image be perceived as instantaneous?",
     "date": "12/11/2016",
+    "keywords": "PERFORMANCE"
+  },
+  "gzip.html": {
+    "title": "Your minification is not enough",
+    "preview": "Gzip is a compression algorithm which works at its best when run against textual files. Let me show you how it works and why I believe minification can be just not enough.",
+    "date": "06/09/2016",
     "keywords": "PERFORMANCE"
   }
 }
