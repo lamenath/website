@@ -53,4 +53,4 @@ Well, as I mentioned earlier, you shouldn't inline a lot of images on the same d
 ## Want to see some code? Stay tuned.
 In an upcoming article, I'm going to describe the process to build a custom element implementing precisely this behaviour; while you wait, you can still reference the awesome [iron-img element](https://elements.polymer-project.org/elements/iron-image) from the Polymer team, which among other things, allows you to provide an image placeholder directly in template.
 
-Hope you enjoyed this article, [let me know what you think](https://twitter.com/mendaomn)!
+Hope you enjoyed this article, [let me know what you think](https://twitter.com/westwingsols)!

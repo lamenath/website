@@ -1,4 +1,10 @@
 {
+  "image-inlining-element.html": {
+    "title": "The performance of images: a Custom Element",
+    "preview": "This is the second part of our series on the performance of images, in the following we will be building a Custom Element implementing the inlining technique outlined earlier.",
+    "date": "25/11/2016",
+    "keywords": "CODE"
+  },
   "image-inlining.html": {
     "title": "The performance of images: inlining",
     "preview": "Pictures are an integral part of the web experience, but can sometimes be slow to display, especially on mobile networks. Can we make the loading of an image be perceived as instantaneous?",
