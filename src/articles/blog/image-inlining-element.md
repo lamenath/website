@@ -140,7 +140,8 @@ Finally, an onload callback is set, so that the two images can be properly swapp
   }
 ```
 
-And that's about it! We've just implemented a great **reusable element** that we can adopt for every above-the-fold image in our apps or sites. Let's conclude with an example of usage:
+## Wrapping up
+And that's about it! We've just implemented a great **reusable element** that we can adopt for every above-the-fold image in our apps or sites. By any means, do take a look at [the code on GitHub](https://github.com/west-wing-solutions/blog-samples/tree/master/custom-elements/InlineImage). Let's conclude with an example of usage:
 
 ```markup
   <inline-image
@@ -150,4 +151,4 @@ IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09
   </inline-image>
 ```
 
-If you think this might help someone you know, please share it to **help us reach more people**! Also, we'd love to hear your feedback on this type of articles? Is it helpful? Would you rather read something more practical or theoretical? **Let us know, by leaving a comment on Twitter!**
+If you think this might help someone you know, please share it to **help us reach more people**! Also, we'd love to hear your feedback on this type of articles. Is it helpful? Would you rather read something more practical or theoretical? **Let us know, by leaving a comment on Twitter!**
