@@ -1,4 +1,10 @@
 {
+  "conditional-polyfills.html": {
+    "title": "Features support: polyfills and condiitonal loading",
+    "preview": "New features of the Web Platform are enticing and appealing to developers, but sooner or later we all crash against the Cross Browser Compatibility Wall. Should we give up on the shiny new features and wait on browsers to catch up? Hell no we shouldn't! Polyfills to the rescue.",
+    "date": "02/12/2016",
+    "keywords": "BLEEDING EDGE"
+  },
   "image-inlining-element.html": {
     "title": "The performance of images: a Custom Element",
     "preview": "This is the second part of our series on the performance of images, in the following we will be building a Custom Element implementing the inlining technique outlined earlier.",
