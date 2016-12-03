@@ -1,6 +1,6 @@
 {
   "conditional-polyfills.html": {
-    "title": "Features support: polyfills and condiitonal loading",
+    "title": "Features support: polyfills and conditional loading",
     "preview": "New features of the Web Platform are enticing and appealing to developers, but sooner or later we all crash against the Cross Browser Compatibility Wall. Should we give up on the shiny new features and wait on browsers to catch up? Hell no we shouldn't! Polyfills to the rescue.",
     "date": "02/12/2016",
     "keywords": "BLEEDING EDGE"
