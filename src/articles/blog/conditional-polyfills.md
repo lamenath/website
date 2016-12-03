@@ -1,5 +1,5 @@
 # Features support: polyfills and conditional loading
-_Alessandro Menduni_ _25/11/2016_
+_Alessandro Menduni_ _02/12/2016_
 
 Sometimes you get excited by new possibilites offered by the Web Platform and start playing with promising new patterns, [as we did here with Custom Elements](https://westwingsolutions.com/articles/blog/image-inlining-element). New features of the Web Platform are enticing and appealing to developers, but sooner or later we all crash against the Cross Browser Compatibility Wall. Should we give up on the shiny new features and wait on browsers to catch up? **Hell no we shouldn't!** Polyfills to the rescue.
 
