@@ -1,4 +1,10 @@
 {
+  "60fps-animations.html": {
+    "title": "60fps animations on the Web",
+    "preview": "I want you to listen to me. You cannot animate whichever CSS property you'd wish to transition carelessly. However, 60fps can be achieved on the Web. Let's see what we can do to start helping to make the Web a better (and smoother) place.",
+    "date": "10/12/2016",
+    "keywords": "PERF ANIMATIONS"
+  },
   "conditional-polyfills.html": {
     "title": "Features support: polyfills and conditional loading",
     "preview": "New features of the Web Platform are enticing and appealing to developers, but sooner or later we all crash against the Cross Browser Compatibility Wall. Should we give up on the shiny new features and wait on browsers to catch up? Hell no we shouldn't! Polyfills to the rescue.",
