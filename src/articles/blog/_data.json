@@ -1,4 +1,10 @@
 {
+  "perf-metrics.html": {
+    "title": "Measuring performance: page load",
+    "preview": "When approaching performance, you need to start with profiling. The first thing you want to do is identifying the problem: since finding what's wrong is always the first step of making it right. That's why measuring is so important when it comes to page load performance, if you don't have metrics to compare, you don't have a measure of success.",
+    "date": "15/12/2016",
+    "keywords": "PERF METRICS"
+  },
   "60fps-animations.html": {
     "title": "60fps animations on the Web",
     "preview": "I want you to listen to me. You cannot animate whichever CSS property you'd wish to transition carelessly. However, 60fps can be achieved on the Web. Let's see what we can do to start helping to make the Web a better (and smoother) place.",

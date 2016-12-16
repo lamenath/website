@@ -14,5 +14,20 @@
     "label": "@westwingsols",
     "href": "https://twitter.com/westwingsols",
     "icon": "/assets/img/twitter.svg"
+  }, {
+    "platform": "Medium",
+    "label": "@west-wing-solutions",
+    "href": "https://medium.com/west-wing-solutions",
+    "icon": "/assets/img/twitter.svg"
+  }, {
+    "platform": "Snapchat",
+    "label": "@westwingsols",
+    "href": "https://accounts.snapchat.com/accounts/snapcodes?type=png",
+    "icon": "/assets/img/twitter.svg"
+  }, {
+    "platform": "Facebook",
+    "label": "@westwingsols",
+    "href": "https://www.facebook.com/westwingsols",
+    "icon": "/assets/img/twitter.svg"
   } ]
 }
