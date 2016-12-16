@@ -2,7 +2,7 @@
   "perf-metrics.html": {
     "title": "Measuring performance: page load",
     "preview": "When approaching performance, you need to start with profiling. The first thing you want to do is identifying the problem: since finding what's wrong is always the first step of making it right. That's why measuring is so important when it comes to page load performance, if you don't have metrics to compare, you don't have a measure of success.",
-    "date": "15/12/2016",
+    "date": "16/12/2016",
     "keywords": "PERF METRICS"
   },
   "60fps-animations.html": {
