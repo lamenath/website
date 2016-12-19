@@ -6,7 +6,9 @@
   "scripts": {
     "start": "harp server src",
     "compress-images": "tinypng src/assets/img/",
-    "build": "harp compile src/ dist/",
+    "uglify": "uglifyjs src/assets/loadFonts.js -o src/assets/loadFonts.js",
+    "clean-css": "cleancss src/assets/roboto.css -o src/assets/roboto.css",
+    "build": "npm run uglify && npm run clean-css && harp compile src/ dist/",
     "deploy-to-firebase": "npm run build && firebase deploy"
   },
   "author": "Alessandro Menduni",
