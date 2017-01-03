@@ -1,4 +1,10 @@
 {
+  "fonts-strat.html": {
+    "title": "How I dropped 1s from the First Paint with a smarter font loading strategy",
+    "preview": "I've been learning a lot about measuring performance recently. As an exercise, I measured the Time to First Paint for our website on a Moto G on a 3G connection (thanks WebPageTest) which was pretty upsetting. As I started investigating more on the causes, I've found out about two innocent realities that I've never considered before about Web Fonts",
+    "date": "03/01/2017",
+    "keywords": "PERF FONTS"
+  },
   "perf-metrics.html": {
     "title": "Measuring performance: page load",
     "preview": "When approaching performance, you need to start with profiling. The first thing you want to do is identifying the problem: since finding what's wrong is always the first step of making it right. That's why measuring is so important when it comes to page load performance, if you don't have metrics to compare, you don't have a measure of success.",
@@ -21,7 +27,7 @@
     "title": "The performance of images: a Custom Element",
     "preview": "This is the second part of our series on the performance of images, in the following we will be building a Custom Element implementing the inlining technique outlined earlier.",
     "date": "25/11/2016",
-    "keywords": "PERF CODE"
+    "keywords": "PERF IMAGES"
   },
   "image-inlining.html": {
     "title": "The performance of images: inlining",
