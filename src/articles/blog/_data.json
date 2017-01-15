@@ -1,4 +1,10 @@
 {
+  "blocking-css.html": {
+    "title": "The single most effective technique I employ to fix a slow First Paint",
+    "preview": "Recently I shared the most effective technique I end up relying on, when fixing a slow First Paint. It is not mind blowing, it is not novel, and it is certainly not complicated. Still, that’s what I spend most of my time doing, so I decided to expand a little bit more",
+    "date": "15/01/2017",
+    "keywords": "PERF CSS"
+  },
   "fonts-strat.html": {
     "title": "How I dropped 1s from the First Paint with a smarter font loading strategy",
     "preview": "I've been learning a lot about measuring performance recently. As an exercise, I measured the Time to First Paint for our website on a Moto G on a 3G connection (thanks WebPageTest) which was pretty upsetting. As I started investigating more on the causes, I've found out about two innocent realities that I've never considered before about Web Fonts",
