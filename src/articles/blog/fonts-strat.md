@@ -1,4 +1,6 @@
 # How I dropped 1s from the First Paint with a smarter font loading strategy
+_Alessandro Menduni 15/01/2017_
+
 I've been learning a lot about measuring performance recently, and I've also shared part of this journey on [Twitter](https://twitter.com/westwingsols) and [Facebook](https://www.facebook.com/westwingsols). One thing that I am learning to do more and more, as [I wrote about](https://westwingsolutions.com/articles/blog/perf-metrics) a couple of weeks ago, is measuring before optimizing.
 
 As an exercise, I measured the Time to First Paint for our website on a Moto G on a 3G connection (thanks WebPageTest) which [was pretty upsetting](https://www.facebook.com/westwingsols/photos/a.648989588615139.1073741828.638332633014168/652668194913945/?type=3&theater).
