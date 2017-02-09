@@ -5,29 +5,29 @@
     "href": "mailto:ask@westwingsolutions.com",
     "icon": "/assets/img/email.svg"
   }, {
-    "platform": "GitHub",
-    "label": "@west-wing-solutions",
-    "href": "https://github.com/west-wing-solutions",
-    "icon": "/assets/img/github.svg"
+    "platform": "Facebook",
+    "label": "@westwingsols",
+    "href": "https://www.facebook.com/westwingsols",
+    "icon": "/assets/img/facebook.svg"
   }, {
     "platform": "Twitter",
     "label": "@westwingsols",
     "href": "https://twitter.com/westwingsols",
     "icon": "/assets/img/twitter.svg"
   }, {
+    "platform": "GitHub",
+    "label": "@west-wing-solutions",
+    "href": "https://github.com/west-wing-solutions",
+    "icon": "/assets/img/github.svg"
+  }, {
     "platform": "Medium",
     "label": "@west-wing-solutions",
     "href": "https://medium.com/west-wing-solutions",
-    "icon": "/assets/img/twitter.svg"
+    "icon": "/assets/img/medium.png"
   }, {
     "platform": "Snapchat",
     "label": "@westwingsols",
-    "href": "https://accounts.snapchat.com/accounts/snapcodes?type=png",
-    "icon": "/assets/img/twitter.svg"
-  }, {
-    "platform": "Facebook",
-    "label": "@westwingsols",
-    "href": "https://www.facebook.com/westwingsols",
-    "icon": "/assets/img/twitter.svg"
+    "href": "https://www.snapchat.com/add/westwingsols",
+    "icon": "/assets/img/snapchat.svg"
   } ]
 }
