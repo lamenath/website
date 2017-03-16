@@ -1,4 +1,22 @@
 {
+  "perf-audit-where-do-i-start-p3.html": {
+    "title": "ASKTHEINDUSTRY 24: I want to audit the performance of my website, where do I start? (part 3)",
+    "preview": "In this last part, I’m giving you a bullet list of every step I take when going for runtime discoveries. Two days ago we established two types of perf audits and said that one can focus on either loadtime or runtime. Today let’s see an actionable list of steps that you can take on your website right now.",
+    "date": "09/03/2017",
+    "keywords": "PERF AUDIT"
+  },
+  "perf-audit-where-do-i-start-p2.html": {
+    "title": "ASKTHEINDUSTRY 23: I want to audit the performance of my website, where do I start? (part 2)",
+    "preview": "I’ll address the more practical side of it, giving you a bullet list of every step I take when going for loadtime discoveries. Yesterday we established two types of perf audits and said that one can focus on either loadtime or runtime. Today let’s see an actionable list of steps that you can take on your website today.",
+    "date": "08/03/2017",
+    "keywords": "PERF AUDIT"
+  },
+  "perf-audit-where-do-i-start-p1.html": {
+    "title": "ASKTHEINDUSTRY 22: I want to audit the performance of my website, where do I start? (part 1)",
+    "preview": "I see this one a lot. More and more people in the web development industry are beginning to see the incredible convenience of having a fast-loading website. It's good for the users, it's good for conversions, it's good for the numbers, it's good for everybody. Reasonably, developers are starting to approach this topic. What's in an audit? How do I start? Is there a single way to go about it, or are there many?",
+    "date": "07/03/2017",
+    "keywords": "PERF AUDIT"
+  },
   "blocking-css.html": {
     "title": "The single most effective technique I employ to fix a slow First Paint",
     "preview": "Recently I shared the most effective technique I end up relying on, when fixing a slow First Paint. It is not mind blowing, it is not novel, and it is certainly not complicated. Still, that’s what I spend most of my time doing, so I decided to expand a little bit more",
