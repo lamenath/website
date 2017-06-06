@@ -7,12 +7,18 @@ var SideNav = ( function() {
 
   function bindHamburger() {
     hamburger = document.querySelector( ".pageHeader__OpenNav" );
+    if (!hamburger)
+      return;
     hamburger.addEventListener( "click", toggleSideNav );
   }
 
   function bindNav() {
     sideNav = document.querySelector( ".sideNav__Container" );
+    if (!sideNav)
+      return;
     overlay = sideNav.querySelector( ".sideNav__Overlay" );
+    if (!overlay)
+      return;
     overlay.addEventListener( "click", toggleSideNav );
   }
 

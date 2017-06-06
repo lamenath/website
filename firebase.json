@@ -2,14 +2,17 @@
   "hosting": {
     "public": "dist",
     "cleanUrls": true,
-    "redirects": [ {
-      "source": "/articles/blog",
-      "destination": "/pages/blog",
-      "type": 301
-    }, {
-      "source": "/articles/portfolio",
-      "destination": "/pages/portfolio",
-      "type": 301
-    } ]
+    "redirects": [
+      {
+        "source": "/articles/blog",
+        "destination": "/pages/blog",
+        "type": 301
+      },
+      {
+        "source": "/articles/portfolio",
+        "destination": "/pages/portfolio",
+        "type": 301
+      }
+    ]
   }
 }

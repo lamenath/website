@@ -1,0 +1,112 @@
+@import "../_partials/_global"
+@import "../_partials/_colors"
+@import "../_partials/_typography"
+@import "../_components/_headline/_headline"
+@import "../_components/_button/_button"
+@import "../_components/_footer/_footer"
+
+.lp__Container
+
+  .wrapper
+    max-width: 1024px
+
+  .lp-header
+    display: flex
+    align-items: center
+    height: auto
+    padding: 0
+    margin: 0
+
+    .lp-company-name
+      font-size: 18px
+
+    a
+      color: inherit
+      text-decoration: none
+
+    img
+      max-width: 50px
+      max-height: 100%
+      padding: 15px 0
+      margin-right: 15px
+
+  .lp-masthead
+    background-color: $mainLight
+
+    &.hd__Container
+      .hd__Headline
+        .hd__Headline__Lead
+          color: $grey
+
+  .lp-contacts
+    padding: 50px 0
+
+    .wrapper
+      display: flex
+
+  .lp-contacts__descr
+    margin-right: 125px
+    font-size: 18px
+
+    ol
+      padding-left: 10px
+
+      li
+        margin-bottom: 15px
+
+  .lp-contacts__form-container
+    min-width: 350px
+
+  .lp-contacts__form-title
+    font-weight: bold
+    text-transform: uppercase
+
+  .mauticform-row
+    margin-bottom: 0
+
+  .mauticform_wrapper
+    margin-left: 0
+    margin-right: 0
+    max-width: 100%
+
+  .lp-input
+    display: block
+    margin-top: 15px
+
+  // Horrible trick to increase specificity
+  .button.button
+    margin-top: 25px
+    padding-top: 15px
+    padding-bottom: 15px
+    background-color: $grey
+    color: $mainLight
+    font-size: 16px
+    font-weight: bold
+    text-transform: uppercase
+
+    &.alternate
+      background-color: $mainLight
+      color: $grey
+
+  .lp-input
+    padding: 10px 25px
+    width: 100%
+    border-style: solid
+    border-radius: 4px
+    border-color: $mainLight
+    border-width: 1px
+    font-size: 16px
+
+@media (max-width: 800px)
+  .lp__Container
+    .wrapper
+      flex-direction: column
+
+      .lp-contacts__descr
+        margin-right: 0
+        margin-bottom: 50px
+
+@media (max-width: 450px)
+  .lp-masthead.hd__Container
+    .hd__Headline
+      max-width: 100%

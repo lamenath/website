@@ -1,0 +1,37 @@
+extends page.jade
+
+block head
+  title West Wing Solutions Perf Audit
+  meta(name="description" content="A curated collection of some of our best works, packed with in-depth case studies and lessons learned.")
+
+block css
+  link(rel="stylesheet" href="./perf-audit.css")
+
+block content
+  .lp__Container
+    .wrapper
+      .lp-header(itemscope itemtype="http://schema.org/Organization")
+        a(href="/" itemprop="url")
+          img(src="/assets/img/logo.svg" itemprop="logo" alt="West Wing Solutions logo")
+        a.lp-company-name(href="/") West Wing Solutions
+
+    header.lp-masthead.hd__Container
+      .wrapper
+        .hd__Headline
+          h1.hd__Headline__Strong
+            | Ottieni più clienti,<br>più facilmente
+          .hd__Headline__Lead
+            | La metà dei tuoi visitatori abbandona il tuo sito se non si carica entro 3 secondi. Sei pronto a fermare l'emorragia?
+          a(href="#prenota-adesso") 
+            button.button Prenota adesso!
+
+    section.lp-contacts
+      .wrapper
+        .lp-contacts__descr
+          ol
+            li Ottieni un'analisi approfondita della velocità del tuo sito con consigli e buone pratiche per tutto il tuo team
+            li Conosci esattamente in che situazione ti trovi e come muoverti per avere un sito più veloce ed offrire un'esperienza d'uso sellare
+            li Potenzia la tua presenza online e attrai più clienti, clienti migliori e clienti più fedeli al tuo brand
+        .lp-contacts__form-container#prenota-adesso
+          .lp-contacts__form-title Lascia nome e indirizzo email, ti contatterò il prima possibile
+          script(type="text/javascript" src="//westwingsolutions.mautic.net/form/generate.js?id=2")            
