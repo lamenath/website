@@ -5,6 +5,8 @@
 @import "../_components/_button/_button"
 @import "../_components/_footer/_footer"
 
+$grey-bg: #FAFAFA
+
 .lp__Container
 
   .wrapper
@@ -44,9 +46,11 @@
     .wrapper
       display: flex
 
+  .lp-contacts__title
+    margin-top: 0
+
   .lp-contacts__descr
     margin-right: 125px
-    font-size: 18px
 
     ol
       padding-left: 10px
@@ -58,8 +62,9 @@
     min-width: 350px
 
   .lp-contacts__form-title
-    font-weight: bold
-    text-transform: uppercase
+    @extend .paragraphSubtitle
+
+    margin-top: 0
 
   .mauticform-row
     margin-bottom: 0
@@ -78,7 +83,7 @@
     margin-top: 25px
     padding-top: 15px
     padding-bottom: 15px
-    background-color: $grey
+    background-color: $grey-bg
     color: $mainLight
     font-size: 16px
     font-weight: bold
@@ -89,13 +94,100 @@
       color: $grey
 
   .lp-input
+    @extend .paragraph
     padding: 10px 25px
     width: 100%
     border-style: solid
     border-radius: 4px
     border-color: $mainLight
     border-width: 1px
-    font-size: 16px
+
+  .lp-nb
+    padding: 50px 0
+    // background-color: $grey-bg
+
+    .lp-nb__title
+      @extend .paragraphSubtitle
+
+      margin-top: 0
+
+    .lp-nb__text
+      @extend .paragraph
+
+      margin-top: 15px
+
+  .lp-steps
+    padding: 50px 0
+    background-color: $grey-bg
+
+    .lp-steps__title
+      @extend .paragraphSubtitle
+
+      margin-top: 0
+
+    .lp-steps__row
+      margin-top: 50px
+      display: flex
+      justify-content: space-between
+
+      .lp-steps__cell
+        flex: 1
+        margin-left: 25px
+        text-align: center
+
+        &:first-child
+          margin-left: 0
+
+        .lp-steps__cell-img
+          max-width: 50px
+          max-height: 50px
+
+        .lp-steps__cell-text
+          @extend .paragraph
+
+          margin-top: 15px
+          text-align: center
+
+  .lp-features
+    padding: 50px 0
+    background-color: $grey-bg
+
+    .lp-features__title
+      @extend .paragraphSubtitle
+
+      margin-top: 0
+
+    .lp-features__descr
+      @extend .paragraph
+
+      li
+        margin-top: 15px
+
+  .lp-you,
+  .lp-me
+    padding: 50px 0
+
+    .lp-you__title,
+    .lp-me__title
+      margin-top: 0
+
+    ul
+      text-align: left
+
+  .lp-me
+    background-color: $grey-bg
+
+  .lp-cta
+    padding: 50px 0
+    background-color: $mainLight
+    color: $grey
+    text-align: center
+
+    .lp-cta__text
+      margin-top: 0
+
+    .lp-cta__btn button
+      margin-top: 0
 
 @media (max-width: 800px)
   .lp__Container
@@ -105,6 +197,21 @@
       .lp-contacts__descr
         margin-right: 0
         margin-bottom: 50px
+
+      .lp-contacts__form-container
+        min-width: auto
+
+    .lp-steps
+      .lp-steps__row
+        margin-top: 25px
+        flex-direction: column
+
+        .lp-steps__cell
+          margin-top: 50px
+          margin-left: 0
+
+          &:first-child
+            margin-top: 0
 
 @media (max-width: 450px)
   .lp-masthead.hd__Container
