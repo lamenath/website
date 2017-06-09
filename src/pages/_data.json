@@ -15,6 +15,11 @@
     "href": "https://twitter.com/westwingsols",
     "icon": "/assets/img/twitter.svg"
   }, {
+    "platform": "Linkedin",
+    "label": "@westwingsolutions",
+    "href": "https://www.linkedin.com/company-beta/11154661",
+    "icon": "/assets/img/linkedin.svg"
+  }, {
     "platform": "GitHub",
     "label": "@west-wing-solutions",
     "href": "https://github.com/west-wing-solutions",
@@ -24,10 +29,5 @@
     "label": "@west-wing-solutions",
     "href": "https://medium.com/west-wing-solutions",
     "icon": "/assets/img/medium.png"
-  }, {
-    "platform": "Snapchat",
-    "label": "@westwingsols",
-    "href": "https://www.snapchat.com/add/westwingsols",
-    "icon": "/assets/img/snapchat.svg"
   } ]
 }
