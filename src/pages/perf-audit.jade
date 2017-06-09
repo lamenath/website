@@ -2,10 +2,16 @@ extends page.jade
 
 block head
   title West Wing Solutions Perf Audit
-  meta(name="description" content="A curated collection of some of our best works, packed with in-depth case studies and lessons learned.")
+  meta(name="description" content="La metà dei tuoi visitatori abbandona il tuo sito se non si carica entro 3 secondi. Sei pronto a fermare l'emorragia?.")
 
 block css
   link(rel="stylesheet" href="./perf-audit.css")
+
+//- block header
+//-   !=partial('../_components/_pageHeader/_pageHeader.jade', {content: 'Perf audit'})
+//-   
+//- block sidenav
+//-   !=partial('../_components/_sideNav/_sideNav.jade', {content: 'Perf audit'})
 
 block content
   .lp__Container
@@ -28,11 +34,12 @@ block content
     section.lp-contacts
       .wrapper
         .lp-contacts__descr
-          .lp-contacts__title.paragraphSubtitle Una consulenza dal valore di 900€, a soli 499€
+          .lp-contacts__title.paragraphSubtitle Una consulenza dal valore di 900€, 
+            strong a soli 499€
           ol.paragraph
-            li Ottieni un'analisi approfondita della velocità del tuo sito con consigli e buone pratiche per tutto il tuo team
-            li Conosci esattamente in che situazione ti trovi e come muoverti per avere un sito più veloce ed offrire un'esperienza d'uso sellare
-            li Potenzia la tua presenza online e attrai più clienti, clienti migliori e clienti più fedeli al tuo brand
+            li Ottieni <strong>un'analisi approfondita della velocità del tuo sito</strong> con consigli e buone pratiche per tutto il tuo team
+            li <strong>Conosci esattamente in che situazione ti trovi</strong> e come muoverti per avere un sito più veloce ed offrire un'esperienza d'uso sellare
+            li Potenzia la tua presenza online e <strong>attrai più clienti, clienti migliori e clienti più fedeli al tuo brand</strong>
         .lp-contacts__form-container#prenota-adesso
           .lp-contacts__form-title Lascia nome e indirizzo email, ti contatterò il prima possibile
           script(type="text/javascript" src="//westwingsolutions.mautic.net/form/generate.js?id=2")
@@ -42,33 +49,33 @@ block content
         .lp-steps__row
           .lp-steps__cell
             img.lp-steps__cell-img(src="/assets/img/code.svg", alt="")
-            .lp-steps__cell-text Mi date accesso al codice e dedico 2 giorni interamente al vostro progetto
+            .lp-steps__cell-text Mi date accesso al codice e <strong>dedico 2 giorni</strong> interamente al vostro progetto
           .lp-steps__cell
             img.lp-steps__cell-img(src="/assets/img/report.svg", alt="")
-            .lp-steps__cell-text Vi fornisco un report e tutto il materiale di corredo
+            .lp-steps__cell-text Vi fornisco un <strong>report</strong> e tutto il materiale di corredo
           .lp-steps__cell
             img.lp-steps__cell-img(src="/assets/img/phone.svg", alt="")
-            .lp-steps__cell-text Fissiamo una chiamata Skype di 90 minuti in cui sarò a completa disposizione
+            .lp-steps__cell-text Fissiamo <strong>una chiamata Skype di 90 minuti</strong> in cui sarò a completa disposizione
             
     section.lp-nb
       .wrapper
-        .lp-nb__title Nota bene
-        .lp-nb__text Le valutazioni sono tagliate su misura sul tuo specifico progetto: ti farò delle domande prima di iniziare e capiremo assieme se ci siano alcune aree (ambiti? settori?) in cui vuoi che mi concentri maggiormente. Esistono soluzioni precotte che si possono applicare ad alcuni scenari, ma è importante per me riuscire prima a stabilire che siano sufficienti per apportare valore al tuo prodotto.
+        .lp-nb__title Definiamo assieme gli obiettivi
+        .lp-nb__text <strong>Le valutazioni sono tagliate su misura sul tuo specifico progetto</strong>: ti farò delle domande prima di iniziare e capiremo assieme su quali obiettivi vuoi che mi concentri maggiormente. In questo campo esistono soluzioni preconfezionate che si possono applicare ad alcuni scenari, prima di utilizzarle, però, è importante per me riuscire a stabilire che siano sufficienti per <strong>apportare valore al tuo prodotto.</strong>
           
     section.lp-features
       .wrapper
         .lp-features__title Cosa aspettarsi dall'analisi
         .lp-features__descr
           ul
-            li Elenco delle cosiddette quick wins: semplici aggiustamenti che possono fornire risultati diretti
-            li Rivelazione di eventuali colli di bottiglia
+            li Elenco delle cosiddette <strong>quick wins</strong>: semplici aggiustamenti che possono fornire risultati diretti
+            li Rivelazione di eventuali <strong>colli di bottiglia</strong>
             li Identificazione e valorizzazione di tutto il buon lavoro già svolto in modo che venga mantenuto
-            li Miglioramento della performance sia load time che run time
-            li Descrizione di nuove strategie o tecnologie che potrebbero aiutare ulteriormente se adottate
-            li Consigli e buone pratiche da tenere a mente per tutto il team (designer, sviluppatori, ecc)
-            li Raccomandazioni per tool e sistemi di automazione per tenere sotto controllo la performance del prodotto
-            li Tutto il materiale che genero durante l'analisi vi viene consegnato (eventuali report generati dai vari strumenti di analisi, screencasts, esempi di codice, ecc..)
-          | Tutto ciò dovrebbe lasciarvi in una buona posizione per implementare tutti i miglioramenti necessari per avere un sito più veloce e offrire un'esperienza d'uso migliore.
+            li <strong>Miglioramento della performance</strong> sia load time che run time
+            li Descrizione di <strong>nuove strategie o tecnologie</strong> che potrebbero aiutare ulteriormente se adottate
+            li <strong>Consigli e buone pratiche</strong> da tenere a mente per tutto il team (designer, sviluppatori, ecc)
+            li <strong>Raccomandazioni per tool e sistemi di automazione</strong> per tenere sotto controllo la performance del prodotto
+            li Tutto il materiale che genero durante l'analisi vi viene consegnato (eventuali report generati dai vari strumenti di analisi, <strong>screencasts</strong>, <strong>esempi di codice</strong>, ecc..)
+          | Lo scopo di tutto ciò è di <strong>lasciarvi nelle condizioni ideali per implementare tutti i miglioramenti necessari</strong> per avere un sito più veloce e offrire un'esperienza d'uso migliore.
 
     section.lp-you
       .wrapper

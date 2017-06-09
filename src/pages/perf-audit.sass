@@ -1,6 +1,8 @@
 @import "../_partials/_global"
 @import "../_partials/_colors"
 @import "../_partials/_typography"
+// @import "page"
+// @import "../_components/_pageHeader/_pageHeader"
 @import "../_components/_headline/_headline"
 @import "../_components/_button/_button"
 @import "../_components/_footer/_footer"
@@ -8,6 +10,9 @@
 $grey-bg: #FAFAFA
 
 .lp__Container
+
+  ul, ol
+    text-align: left
 
   .wrapper
     max-width: 1024px
@@ -169,9 +174,6 @@ $grey-bg: #FAFAFA
     .lp-you__title,
     .lp-me__title
       margin-top: 0
-
-    ul
-      text-align: left
 
   .lp-me
     background-color: $grey-bg
